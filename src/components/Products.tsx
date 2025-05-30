@@ -27,8 +27,8 @@ const Products = () => {
       name: 'Botija Cinzenta',
       description: 'Compacta e prática para apartamentos pequenos',
       price: '1.800 Kz',
-      color: 'from-amber-600 to-amber-800',
-      bgColor: 'from-amber-50 to-amber-100',
+      color: 'from-gray-600 to-gray-800',
+      bgColor: 'from-gray-50 to-gray-100',
       icon: 'fas fa-fire',
       popular: false,
       features: ['8kg de gás', 'Dura ~20 dias', 'Mais leve']
