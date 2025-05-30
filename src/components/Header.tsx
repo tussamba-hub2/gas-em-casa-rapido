@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { ShoppingCart } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
@@ -54,7 +55,8 @@ const Header = () => {
               onClick={() => scrollToSection('produtos')}
               className="bg-gradient-to-r from-primary-500 to-primary-600 text-white px-6 py-3 rounded-full font-semibold hover:from-primary-600 hover:to-primary-700 transform hover:scale-105 transition-all duration-300 shadow-lg"
             >
-              Comprar Agora
+              <span className="hidden md:inline">Comprar Agora</span>
+              <ShoppingCart className="md:hidden w-5 h-5" />
             </button>
 
             {/* Mobile Menu Button */}
