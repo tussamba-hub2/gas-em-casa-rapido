@@ -30,16 +30,16 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">
             Por que escolher o{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-orange-500">
               gasemcasa?
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Tornamos a compra de gás de cozinha mais fácil e conveniente para as famílias das centralidades
           </p>
         </div>
@@ -48,14 +48,14 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="group text-center p-8 rounded-3xl bg-gradient-to-br from-gray-50 to-white hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
+              className="group text-center p-8 rounded-3xl bg-gradient-to-br from-gray-50 to-white dark:from-gray-700 dark:to-gray-600 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 dark:border-gray-600"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className={`w-20 h-20 mx-auto mb-6 bg-gradient-to-br ${benefit.color} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                 <i className={`${benefit.icon} text-white text-2xl`}></i>
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4">{benefit.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">{benefit.title}</h3>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{benefit.description}</p>
             </div>
           ))}
         </div>
