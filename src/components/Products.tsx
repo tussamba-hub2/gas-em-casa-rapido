@@ -103,7 +103,7 @@ const Products = () => {
                   onClick={() => handleOrder(product.name)}
                   className={`w-full bg-gradient-to-r ${product.color} text-white py-4 rounded-full font-semibold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
                 >
-                  <i className="fab fa-whatsapp mr-2"></i>
+                  <i className="fab fa-motocycle mr-2"></i>
                   Comprar Agora
                 </button>
 
