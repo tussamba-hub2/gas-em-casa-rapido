@@ -24,7 +24,7 @@ const Products = () => {
       features: ['12kg de gás', 'Dura ~25 dias', 'Qualidade garantida']
     },
     {
-      name: 'Botija Castanha',
+      name: 'Botija Cinzenta',
       description: 'Compacta e prática para apartamentos pequenos',
       price: '1.800 Kz',
       color: 'from-amber-600 to-amber-800',
