@@ -12,7 +12,7 @@ const Benefits = () => {
     {
       icon: 'fas fa-home',
       title: 'Sem Sair de Casa',
-      description: 'Peça pelo telefone ou WhatsApp e receba direto na porta do seu apartamento',
+      description: 'Peça e receba direto na porta do seu apartamento',
       color: 'from-primary-400 to-primary-600'
     },
     {
